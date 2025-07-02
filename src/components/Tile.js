@@ -3,8 +3,8 @@ import { cn } from "@/lib/utils";
 
 export default function Tile({ value, onClick }) {
   let bgColor = "bg-[#1C264B]";
-  if (value === "X") bgColor = "bg-[#204463]";
-  if (value === "O") bgColor = "bg-[#395C73]";
+  if (value === "X") bgColor = "bg-[#204463]"; // Color for X
+  if (value === "O") bgColor = "bg-[#395C73]";// Color for O
 
   return (
     <button

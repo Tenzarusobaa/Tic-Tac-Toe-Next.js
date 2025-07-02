@@ -1,5 +1,9 @@
 import GameBoard from "@/components/GameBoard";
 
+// This is the main page of the Tic Tac Toe game
+// It imports the GameBoard component and displays it with a background image
+// The background image is set to 'Nightlife.png' and the game board is centered on the page
+
 export default function Home() {
   return (
     <main

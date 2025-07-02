@@ -1,5 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 
+//Displaying the scoreboard for X and O wins
+// This component is used in GameBoard.js to show the current score of X and O players
+
 export default function ScoreBoard({ xWins, oWins }) {
   return (
     <div className="flex space-x-4">
