@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: url('/Nightlife.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-gap: 10px;
+  background-color: #36486C;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.tile {
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tile.default {
+  background-color: #1C264B;
+}
+
+.tile.x {
+  background-color: #204463;
+}
+
+.tile.o {
+  background-color: #395C73;
+}
+
+.scoreboard {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.scorecard {
+  background-color: #36486C;
+  padding: 5px 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.new-game-button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #36486C;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
